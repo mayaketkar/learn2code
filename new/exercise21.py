@@ -1,5 +1,5 @@
 def add (a, b):
-    print(f"ADDING {a} + {b} This will be my age")
+    print(f"ADDING {a} + {b} This will be my age")
     return a + b
 
 def subtract (a, b):
@@ -9,7 +9,8 @@ def multiply(a, b):
     print(f"MULTIPLYING {a} * {b} This will be my weight ")
     return a * b
 def divide(a, b):
-    print(f"DIVIDING {a} / {b} This is my iq!!!")
+    print(f"DIVIDING {a} / {b} And this is your iq
+        ")
     return a / b
 print("Let's do some math with just functions!") 
 age = add(30, 5)
