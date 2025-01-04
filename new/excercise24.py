@@ -6,25 +6,25 @@ fruit = [
 ];
 
 cars = [
-    {'type': 'Cadillac', color: 'Black', 
-    'size': 'Big', miles:34500}
-    {'type': 'Corvette', color: 'Red', 
-    'size': 'Little', miles:100000}
-    {'type': 'Ford', color: 'Blue', 
-    'size': 'Medium', miles:1234}
-    {'type': 'BMW', color: 'White',
-    'size': 'Baby', miles: 7890}
+    {'type': 'Cadillac', 'color': 'Black', 
+    'size': 'Big', 'miles':34500},
+    {'type': 'Corvette', 'color': 'Red', 
+    'size': 'Little', 'miles':100000},
+    {'type': 'Ford', 'color': 'Blue', 
+    'size': 'Medium', 'miles':1234},
+    {'type': 'BMW', 'color': 'White',
+    'size': 'Baby', 'miles': 7890},
 ];
 
 languages = [
-    {'name': 'Python', speed: 'Slow', 
-    'opinion': ['Terrible', 'Mush']} 
-    {'name': 'JavaScript', speed: 'Moderate', 
+    {'name': 'Python', 'speed': 'Slow', 
+    'opinion': ['Terrible', 'Mush']}, 
+    {'name': 'JavaScript', 'speed': 'Moderate', 
     'opinion': ['Alright', 'Bizarre' ]},
-    {'name': 'Perl6', speed: 'Moderate', 
-    'opinion': ['Fun', 'Weird' ]}
-    {'name': 'C', speed: 'Fast', 
-    'opinion': ['Annoying', 'Dangerous' ]}
-    {'name': 'Forth', speed: 'Fast', 
+    {'name': 'Perl6', 'speed': 'Moderate', 
+    'opinion': ['Fun', 'Weird' ]},
+    {'name': 'C', 'speed': 'Fast', 
+    'opinion': ['Annoying', 'Dangerous']},
+    {'name': 'Forth', 'speed': 'Fast', 
     'opinion': ['Fun', 'Difficult']},
 ];
