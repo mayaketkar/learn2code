@@ -18,12 +18,15 @@ languages = [
 ]
 
 marks = [
-    ['Maya', [18,27,28]]
-    ['Aditi', [30,29, 30]]
+    ['Maya', [18,27,28]],
+    ['Aditi', [30,29, 30]],
     ['Nikhil', [24,30,29]] 
 ]
 
 formatter = "The {} got {} in English {} in Maths and {} in Biology "
 
-for i in range(3):
-    print(formatter.format(marks[i][0], marks[i]))
+#for i in range(3):
+# print(formatter.format(marks[i][0])[1])
+
+
+print(marks[0][0])
