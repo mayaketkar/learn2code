@@ -11,8 +11,19 @@ cars = [
 
 languages = [
     ['Python', ['Slow', ['Terrible', 'Mush']]],
-    ['JavaSCript', ['Moderate', ['Alright', 'Bizarre']]]
+    ['JavaScript', ['Moderate', ['Alright', 'Bizarre']]],
     ['Perl6', ['Moderate', ['Fun', 'Weird']]],
     ['C', ['Fast', ['Annoying', 'Dangerous']]],
     ['Forth', ['Fast', ['Fun', 'Difficult']]],
 ]
+
+marks = [
+    ['Maya', [18,27,28]]
+    ['Aditi', [30,29, 30]]
+    ['Nikhil', [24,30,29]] 
+]
+
+formatter = "The {} got {} in English {} in Maths and {} in Biology "
+
+for i in range(3):
+    print(formatter.format(marks[i][0], marks[i]))
